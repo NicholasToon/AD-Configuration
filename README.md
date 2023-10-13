@@ -39,6 +39,11 @@ The CLIENT will now be listed under **Computer** in the **Active Directory Users
 
 Login to CLIENT as John_Admin and head to sytem agian, Remote Desktop, Select users that can remotiley access this PC, ADD, type Domain Users, Check names, OK, OK. Now every user under Domain Users can log into CLIENT. 
 
+Login to CLIENT as John_Admin and head to **System** again. Navigate to **Remote Desktop**, select **Users that can remotely access this PC**, click **ADD**, type "Domain Users," then click **Check names** and **OK** x2. Now, every user under Domain Users can log into CLIENT.
+
+
+
+
 
 
 
