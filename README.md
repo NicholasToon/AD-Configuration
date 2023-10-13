@@ -54,7 +54,11 @@ If you want to create some users manually, that is also possible. Simply create 
 
 If at any point you created a file like an Orgizational unit (for e.g.) that you can't delete because it was generated with the Protect container from accidental deletion box clicked then I will show you how to rectify the problem. 
 
-Press start, search and open Actice Directory Administrative Center, switch to tree view, right click on the offending files, properties, uncheck Protect container from accidental deletion box, OK, right click again, and delete. The file will no longer exist. 
+While logged into one of the admin accounts on DC-1, press Start, search for and open **Active Directory Administrative Center**, switch to the tree view, right-click on the offending files, go to **Properties**, uncheck the **Protect container from accidental deletion** box, click **OK**, right-click again, and then delete the file. The file will no longer exist.
+
+
+
+
 
 
 
