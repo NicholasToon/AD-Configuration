@@ -49,7 +49,12 @@ To populate our users for the sake of experimentation, open Windows PowerShell I
 
 If you want to create some users manually, that is also possible. Simply create a new organizational unit by the name of "_EMPLOYEES," open the folder, right-click, choose **New**, then **User**. Fill out the information just as we did for the admin user. Use that login for CLIENT. As for the randomly generated users, you can choose any one of them to log in on CLIENT as seen above.
 
+![Image](https://i.imgur.com/3V1dhOc.png) 
 
+
+If at any point you created a file like an Orgizational unit (for e.g.) that you can't delete because it was generated with the Protect container from accidental deletion box clicked then I will show you how to rectify the problem. 
+
+Press start, search and open Actice Directory Administrative Center, switch to tree view, right click on the offending files, properties, uncheck Protect container from accidental deletion box, OK, right click again, and delete. The file will no longer exist. 
 
 
 
