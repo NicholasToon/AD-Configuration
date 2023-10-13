@@ -27,6 +27,6 @@ Inside the **_ADMINS** **Organizational Unit**, create a new user named John Doe
 
 ![Image](https://i.imgur.com/WBbwsj6.png)
 
-We will now grant John Doe administrative privileges. Right-click on the user, go to **Properties**, select the **Member Of** tab, click **Add**, choose the security group for your user by typing it in the box (in John Doe's case it will be **Domain Admins**), click **Check Names**, then **OK**, **Apply**, and finally **OK**. From this point forward, we will use the admin account to make any further changes. Sign into CLIENT as John_Admin (remember to keep track of your credentials).
+We will now grant John Doe administrative privileges. Right-click on the user, go to **Properties**, select the **Member Of** tab, click **Add**, choose the security group for your user by typing it in the box (in John Doe's case it will be **Domain Admins**), click **Check Names**, then **OK**, **Apply**, and finally **OK**. From this point forward, we will use the admin account to make any further changes. Sign out and then back in to the RDC as John_Admin (remember to keep track of your credentials).
 
 
