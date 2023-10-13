@@ -33,6 +33,7 @@ We will now grant John Doe administrative privileges. Right-click on the user, g
 
 To simulate the general connection process of a computer on a standard system, we first need to join the **CLIENT** to the **Domain Controller**. Start by joining CLIENT with the base Labuser credentials. To change the domain, right-click on Start, go to **System**, then select **Rename this PC (advanced)**. Click **Change**, choose **Domain**, and enter your chosen domain. Typically, this would attempt to communicate with a random domain matching our input on the web and fail, but because we changed the DNS settings of CLIENT in the previous tutorial, we will be able to successfully join. Click **OK**, enter the admin account credentials we created. Click **OK**, **OK**, and finally **OK** one last time when asked to restart, and then select **Restart Now**.
 
+The CLIENT will now have been entered under **Computer** in the **Active Directory Users and Computers panel**.
 
 
 
