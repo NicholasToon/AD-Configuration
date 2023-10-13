@@ -56,6 +56,11 @@ If at any point you created a file like an Orgizational unit (for e.g.) that you
 
 While logged into one of the admin accounts on DC-1, press Start, search for and open **Active Directory Administrative Center**, switch to the tree view, right-click on the offending files, go to **Properties**, uncheck the **Protect container from accidental deletion** box, click **OK**, right-click again, and then delete the file. The file will no longer exist.
 
+That will conclude the configuration of Active Directory for our purposes, but please don't wipe your resource groups yet. We will be using everything we have created to begin exploring [DNS](https://github.com/NicholasToon/Understanding-DNS-in-Azure) first and then [file permissions](https://github.com/NicholasToon/Understanding-File-Permissions-in-Azure). Thank you for your time.
+
+
+
+
 
 
 
