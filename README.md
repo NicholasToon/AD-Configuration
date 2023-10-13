@@ -14,3 +14,5 @@ In this AD configuration, we will cover the creation of an administrative accoun
 
 - Windows Server 2022
 - Windows 10 Pro (22H2)
+
+## Configuration
