@@ -35,9 +35,9 @@ To simulate the general connection process of a computer on a standard system, w
 
 The CLIENT will now be listed under **Computer** in the **Active Directory Users and Computers** panel and is accessible by Domain Admins, even though John_Admin has never logged into CLIENT. However, we want all domain users to have access to CLIENT.
 
-![Image](
+![Image](https://i.imgur.com/4r6vDVs.png)
 
-
+Login to CLIENT as John_Admin and head to sytem agian, Remote Desktop, Select users that can remotiley access this PC, ADD, type Domain Users, Check names, OK, OK. Now every user under Domain Users can log into CLIENT. 
 
 
 
