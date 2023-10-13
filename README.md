@@ -43,6 +43,6 @@ Login to CLIENT as John_Admin and head to **System** again. Navigate to **Remote
 
 ![Image](
 
-To populate our users for the sake of experimentation, open up Windows PowerShell ISE as administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not make this code, credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1))  into the concole
+To populate our users for the sake of experimentation, open up Windows PowerShell ISE as administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not make this code, credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1))  into the concole.
 
 
