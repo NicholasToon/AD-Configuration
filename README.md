@@ -41,9 +41,13 @@ Login to CLIENT as John_Admin and head to sytem agian, Remote Desktop, Select us
 
 Login to CLIENT as John_Admin and head to **System** again. Navigate to **Remote Desktop**, select **Users that can remotely access this PC**, click **ADD**, type "Domain Users," then click **Check names** and **OK** x2. Now, every user under Domain Users can log into CLIENT.
 
-![Image](
+![Image](https://i.imgur.com/oGrEjCy.png)
 
-To populate our users for the sake of experimentation, open Windows PowerShell ISE as an administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not create this code; credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)) into the console. You may want to tweak the number of accounts to create a smaller value to avoid continuous generation while you proceed with the rest of this tutorial. You can also adjust the password as desired.
+To populate our users for the sake of experimentation, open Windows PowerShell ISE as an administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not create this code; credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)) into the console. You may want to tweak the number of accounts to create a smaller value to avoid continuous generation while you proceed with the rest of this tutorial. You can also adjust the password as desired. Once the script is configured to your liking, run it and observe the generation of the accounts.
+
+
+
+
 
 
 
