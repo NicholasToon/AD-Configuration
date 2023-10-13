@@ -43,6 +43,10 @@ Login to CLIENT as John_Admin and head to **System** again. Navigate to **Remote
 
 ![Image](
 
-To populate our users for the sake of experimentation, open up Windows PowerShell ISE as administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not make this code, credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1))  into the concole. You may want to tweak the number of accounts to create value to a smaller one so you don't have a continuous generation occuring while you do the rest of this tutorial as well as the password if you desire.
+To populate our users for the sake of experimentation, open Windows PowerShell ISE as an administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not create this code; credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)) into the console. You may want to tweak the number of accounts to create a smaller value to avoid continuous generation while you proceed with the rest of this tutorial. You can also adjust the password as desired.
+
+
+
+
 
 
