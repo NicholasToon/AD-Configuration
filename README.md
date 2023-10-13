@@ -43,9 +43,11 @@ Login to CLIENT as John_Admin and head to **System** again. Navigate to **Remote
 
 ![Image](https://i.imgur.com/oGrEjCy.png)
 
-To populate our users for the sake of experimentation, open Windows PowerShell ISE as an administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not create this code; credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)) into the console. You may want to tweak the number of accounts to create a smaller value to avoid continuous generation while you proceed with the rest of this tutorial. You can also adjust the password as desired. Once the script is configured to your liking, run it and observe the generation of the accounts.
+To populate our users for the sake of experimentation, open Windows PowerShell ISE as an administrator on DC-1 under the user John_Admin. Create a new file and paste this [script](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs/files/12896330/Code.txt) (I did not create this code; credit goes to [joshmadakor1](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)) into the console. You may want to tweak the number of accounts to create a smaller value to avoid continuous generation while you proceed with the rest of this tutorial. You can also adjust the password as desired. Once the script is configured to your liking, run it and observe the generation of the accounts. Please be aware that due to the random generation method of this script, there is a potential chance of NSFW (Not Safe for Work) names being generated.
 
+![Image](https://i.imgur.com/CkzRTpU.png)
 
+If you want to create some users manually, that is also possible. Simply create a new organizational unit by the name of "_EMPLOYEES," open the folder, right-click, choose **New**, then **User**. Fill out the information just as we did for the admin user. Use that login for CLIENT. As for the randomly generated users, you can choose any one of them to log in on CLIENT as seen above.
 
 
 
