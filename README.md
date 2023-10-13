@@ -58,7 +58,7 @@ While logged into one of the admin accounts on DC-1, press Start, search for and
 
 ---
 
-That will conclude the configuration of Active Directory for our purposes, but please don't wipe your resource groups yet. We will be using everything we have created to begin exploring [DNS](https://github.com/NicholasToon/Understanding-DNS-in-Azure) first and then [file permissions](https://github.com/NicholasToon/Understanding-File-Permissions-in-Azure). Thank you for your time.
+That will conclude the configuration of Active Directory for our purposes, but please don't wipe your resource groups yet. We will be using this environment we have created to begin exploring [DNS](https://github.com/NicholasToon/Understanding-DNS-in-Azure) first and then [file permissions](https://github.com/NicholasToon/Understanding-File-Permissions-in-Azure). Thank you for your time.
 
 
 
