@@ -3,6 +3,8 @@
 ## Active Directory Configuration 
 In this AD configuration, we will cover the creation of an administrative account, the setup of multiple user accounts, and the configuration of Remote Desktop for these users, among other related tasks.
 
+*Always delete your resource groups and other environments in Azure to avoid incurring any unwanted charges on your free credits or actual money. Keep resources open at your own discretion.*
+
 ## Environments and Technologies Used 
 
 - Microsoft Azure (Virtual Machines/Compute)
